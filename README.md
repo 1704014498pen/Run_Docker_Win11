@@ -54,13 +54,10 @@ build.bat
 ```
 Run_Docker_Win11/
 ├── DockerControl.exe        # 메인 실행 파일 (관리자 권한 매니페스트 내장)
-├── src/
-│   ├── DockerControl.cs     # C# WinForms 소스
-│   ├── app.manifest         # requireAdministrator
-│   └── build.bat            # csc.exe 빌드 스크립트
-├── docker-gui.ps1           # PowerShell 버전 (참고용)
-├── Run-Docker-GUI.bat       # PS1 실행 런처 (참고용)
-└── docker-stop.bat          # CLI 전용 fallback
+└── src/
+    ├── DockerControl.cs     # C# WinForms 소스
+    ├── app.manifest         # requireAdministrator
+    └── build.bat            # csc.exe 빌드 스크립트
 ```
 
 ## 라이선스
