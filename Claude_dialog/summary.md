@@ -37,7 +37,13 @@
 - 빌드 도구: **내장 csc.exe** (외부 의존성 없음)
 - 매니페스트: `requireAdministrator` 내장 → 런처 .bat 불필요
 
+### 2026-04-17 — GitHub 퍼블리시 + v1.0.0 릴리스 + 정리
+- `git init` + 첫 커밋 → `gh repo create --public` 로 https://github.com/1704014498pen/Run_Docker_Win11 생성
+- README.md 작성 후 커밋
+- v1.0.0 릴리스 생성, `DockerControl.exe` (9,216 B, sha256 `e9b5da...`) 에셋 첨부
+- cleanup 커밋: 구버전 `Run-Docker-GUI.bat`, `docker-gui.ps1`, `docker-stop.bat` 삭제
+- git 글로벌 identity: `1704014498pen` / `1704014498pen@gmail.com`
+
 ## 미해결 이슈
-- `DockerControl.exe` 실제 동작 테스트 필요
+- `DockerControl.exe` 실제 동작 테스트 필요 (사용자 검증)
 - 무한로딩 근본 원인 조사 미완료
-- GitHub 저장소 생성 미완료
